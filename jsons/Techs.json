@@ -123,6 +123,24 @@
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
+				"name": "Diaspora",
+				"row": 2,
+				"prerequisites": ["Sailing"],
+				"uniques": ["[+100]% Production when constructing [Settler] units [in all cities]","Only available<if no other Civilization has researched this>"],
+			},
+			{
+				"name": "Philosophical School",
+				"row": 3,
+				"prerequisites": ["Calendar"],
+				"uniques": ["[Great Scientist] is earned [+100]% faster","Only available<if no other Civilization has researched this>"],
+			},
+			{
+				"name": "Epic",
+				"row": 4,
+				"prerequisites": ["Writing"],
+				"uniques": ["Free [Great Writer] appears","Only available<if no other Civilization has researched this>"],
+			},
+			{
 				"name": "Horseback Riding",
 				"row": 5,
 				"prerequisites": ["Trapping","The Wheel"],
@@ -151,6 +169,12 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
+			{
+				"name": "Cartography",
+				"row": 1,
+				"prerequisites": ["Optics"],
+				"uniques": ["[+1] Sight<for [Water] units>","Only available<if no other Civilization has researched this>"],
+			},
 			{
 				"name": "Philosophy",
 				"row": 2,
