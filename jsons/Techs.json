@@ -67,7 +67,7 @@
 				"name": "Sailing",
 				"row": 1,
 				"prerequisites": ["Pottery","Fishing"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                "uniques": ["[+100]% weight to this choice for AI decisions","Enables embarkation for land units"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
@@ -123,7 +123,6 @@
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
@@ -147,7 +146,7 @@
 			{
 				"name": "Horseback Riding",
 				"row": 5,
-				"prerequisites": ["Trapping","The Wheel"],
+				"prerequisites": ["Chariots","The Wheel"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
