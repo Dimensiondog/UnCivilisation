@@ -83,7 +83,7 @@
 		"uniques": ["Must not be on [Plains]",
 			"[+1 Production] from [Stone] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
+		"requiredTech": "Masonry"
 	},
 	{
 		"name": "Stonehenge",
@@ -119,10 +119,9 @@
 	},
 	{
 		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trapping"
+		"requiredTech": "Guilds"
 	},
 	{
 		"name": "Water Mill",
@@ -131,7 +130,7 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
-		"requiredTech": "The Wheel"
+		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Floating Gardens",
@@ -143,7 +142,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
-		"requiredTech": "The Wheel"
+		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Walls",
@@ -180,7 +179,7 @@
 		"isWonder": true,
 		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
-		"requiredTech": "Masonry",
+		"requiredTech": "Currency",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
 	{
