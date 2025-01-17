@@ -238,6 +238,12 @@
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
+				"name": "Old Gods",
+				"row": 2,
+				"prerequisites": ["Theology"],
+                "uniques": ["Gain a free [Pantheon] belief","May not generate great prophet equivalents naturally","Only available<if no other Civilization has researched this><before founding a religion>"],	
+			},
+			{
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Theology","Civil Service"],
@@ -245,11 +251,23 @@
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
+				"name": "Shinobi",
+				"row": 5,
+				"prerequisites": ["Civil Service"],
+                "uniques": ["Gain an extra spy","Only available<if no other Civilization has researched this>"],	
+			},
+			{
 				"name": "Chivalry",
 				"row": 6,
 				"prerequisites": ["Civil Service","Guilds"],
                 "uniques": ["Enables Defensive Pacts"],
                 "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
+				"name": "Arti Maggiori",
+				"row": 7,
+				"prerequisites": ["Guilds"],
+                "uniques": ["[+1 Gold, +1 Culture] from every specialist [in all cities]","Only available<if no other Civilization has researched this>"],	
 			},
 			{
 				"name": "Machinery",
@@ -280,6 +298,12 @@
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
+			{
+				"name": "Volto Do mar",
+				"row": 1,
+				"prerequisites": ["Compass"],
+                "uniques": ["[1] Movement<for [Embarked] units>","Only available<if no other Civilization has researched this>"],	
+			},
 			{
 				"name": "Astronomy",
 				"row": 2,
