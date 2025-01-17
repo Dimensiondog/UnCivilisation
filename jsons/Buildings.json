@@ -102,11 +102,9 @@
 	},
 	{
 		"name": "Paper Maker",
-		"replaces": "Library",
-		"uniqueTo": "China",
 		"hurryCostModifier": 25,
-		"gold": 2,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"gold": 1,
+		"science": 1,
 		"requiredTech": "Writing"
 	},
 	{
@@ -300,15 +298,12 @@
 	},
 	{
 		"name": "Burial Tomb",
-		"replaces": "Temple",
-		"uniqueTo": "Egypt",
-		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"faith": 2,
 		"happiness": 2,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
+		"requiredTech": "Calendar"
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -815,15 +810,12 @@
 	},
 	{
 		"name": "Coffee House",
-		"replaces": "Windmill",
-		"uniqueTo": "Austria",
-		"production": 2,
-		"percentStatBonus": {"production": 10},
-		"specialistSlots": {"Engineer": 1},
+		"culture": 2,
+		"specialistSlots": {"Writer": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["[+25]% Great Person generation [in this city]"],
-		"requiredTech": "Economics"
+		"requiredTech": "Architecture"
 	},
 	{
 		"name": "Arsenal",
