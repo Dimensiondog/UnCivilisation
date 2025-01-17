@@ -22,6 +22,11 @@
 		"wonderCost": 185,
 		"techs": [
 			{
+				"name": "Fishing",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+			},
+			{
 				"name": "Pottery",
 				"row": 2,
 				"prerequisites": ["Agriculture"],
@@ -61,7 +66,7 @@
 			{
 				"name": "Sailing",
 				"row": 1,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Pottery","Fishing"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
@@ -79,10 +84,9 @@
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
-				"name": "Trapping",
+				"name": "Chariots",
 				"row": 5,
 				"prerequisites": ["Animal Husbandry"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
