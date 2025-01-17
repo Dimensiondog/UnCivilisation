@@ -18,6 +18,12 @@
 		"color": [160,32,240]
 	},
 	{
+		"name":"Artist",
+		"culture":2,
+		"greatPersonPoints": {"Great Writer":3},
+		"color": [160,32,240]
+	},
+	{
 		"name":"Engineer",
 		"production":2,
 		"greatPersonPoints": {"Great Engineer":3},
